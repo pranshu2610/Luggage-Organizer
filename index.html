@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Time to Travel</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Patua+One&display=swap" rel="stylesheet">
+</head>
+<body><br>
+	<h1>Let's start Packing!!</h1>
+	<br>
+	<h2>Baggage Description</h2>
+	<div class="tab">
+		<p><br>
+		Bag Company and Type : <input type="text" id="name" placeholder="For ex. Safari Bagpack" min="1">
+		<button id="enter1">Put</button><br>
+		Color of Bag : <input type="Color" id="color"><br><br>
+		</p>
+	</div>
+
+	<h2>Lets start putting items in our bag</h2>
+	<div class="tab">
+		<p id="main"><br>Main Storage
+		<input id="maininput" type="userinput" placeholder="Pack Wisely!">
+		<button id="enter">Put</button>
+		<ul>
+		</ul>
+		</p><br>
+
+		<p id="side">Side Storage
+		<input id="sideinput" type="userinput" placeholder="Small Items Here!">
+		<button id="enter2">Put</button>
+		<ul id="nextList">
+		</ul>
+		</p><br>
+
+		<p id="front">Front Storage
+		<input id="frontinput" type="userinput" placeholder="Anything That's Slim!">
+		<button id="enter3">Put</button>
+		<ul id="frontlist">
+		</ul>
+		</p><br>
+	</div>
+	
+
+	<h2>All Set! Now Screenshot this because this really helps.</h2><br>
+	<div class="container">
+		<h3 id="bag"></h3>
+		<div class="card" style="width: 18rem;">
+		  	<img src="res\main.jpg" class="card-img-top" alt="...">
+		  	<div class="card-body">
+			    <h5 class="card-title">Main Storage</h5>
+			    <p class="card-text">Here is the list of items stored here</p>
+		  	</div>
+		  	<ul class="list-group list-group-flush" id="mainlist">
+		  	</ul>
+		</div>
+		<div class="card" style="width: 18rem;">
+		  	<img src="res\side.jpg" class="card-img-top" alt="...">
+		  	<div class="card-body">
+			    <h5 class="card-title">Side Storage</h5>
+			    <p class="card-text">Here we placed smaller items</p>
+		  	</div>
+		  	<ul class="list-group list-group-flush" id="sidelist">			    
+		  	</ul>
+		</div>
+		<div class="card" style="width: 18rem;">
+		  	<img src="res\front.jpg" class="card-img-top" alt="...">
+		  	<div class="card-body">
+			    <h5 class="card-title">Front Storage</h5>
+			    <p class="card-text">These are placed in front storage</p>
+		  	</div>
+		  	<ul class="list-group list-group-flush" id="finallist">	    
+		  	</ul>
+		 </div>
+	</div>
+	<br><br>
+	<h6>Made with ❤️ by Pranshu Kumbhare</h6>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

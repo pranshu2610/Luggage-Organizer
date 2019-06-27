@@ -1,0 +1,59 @@
+body {
+  	background-image: url(res/bg.jpg);
+	background-size: cover;
+	color: white;
+}
+h1 {
+	text-align: center;
+	font-family: 'Anton', sans-serif;
+	color: white;
+	font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+}
+h3 {
+	text-align: center;
+	font-family: 'Patua One', cursive;
+    text-transform: uppercase;
+    color: white;
+    width: 100%;
+}
+h2 {
+	text-align: center;
+	font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    width: 100%;
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	border-radius: 30px;
+	margin-bottom: 40px;
+}
+.card {
+	margin: 10px;
+}
+.tab {
+	background-color: white;
+	margin-left: 90px;
+	margin-right: 90px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	border-radius: 30px;
+}
+
+p {
+	text-align: center;
+}
+h6 {
+	text-align: center;
+	font-family: 'Patua One', cursive;
+	color: white;
+	font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+}
